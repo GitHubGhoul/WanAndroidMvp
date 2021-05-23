@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fafbfd</color>
+    <color name="colorPrimaryVariant">#ffffff</color>
+    <color name="colorOnPrimary">#f49452</color>
+    <color name="colorSecondary">#0a0b0d</color>
+    <color name="colorSecondaryVariant">#000000</color>
+    <color name="colorOnSecondary">#f49452</color>
+
+    <!--tab color-->
+    <color name="tab_active">#000000</color>
+    <color name="tab_inactive">#a2a9af</color>
+</resources>
