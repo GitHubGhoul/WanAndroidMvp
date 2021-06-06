@@ -18,7 +18,7 @@ import androidx.viewbinding.ViewBinding;
 
 public abstract class BaseVBFragment<VB extends ViewBinding,P extends BasePresenter> extends Fragment {
 
-    private VB mBinding;
+    protected VB mBinding;
     protected P mPresenter;
 
     @Nullable

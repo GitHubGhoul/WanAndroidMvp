@@ -1,0 +1,4 @@
+<resources>
+    <!--HomeFragment-->
+    <dimen name="popup_item">16sp</dimen>
+</resources>

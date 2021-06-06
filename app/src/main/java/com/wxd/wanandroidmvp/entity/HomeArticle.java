@@ -146,7 +146,7 @@ public class HomeArticle {
         private int userId;
         private int visible;
         private int zan;
-        private List<?> tags;
+        private List<Tags> tags;
 
         public String getApkLink() {
             return apkLink;
@@ -404,11 +404,38 @@ public class HomeArticle {
             this.zan = zan;
         }
 
-        public List<?> getTags() {
+        public List<Tags> getTags() {
             return tags;
         }
 
-        public void setTags(List<?> tags) {
+        public static class Tags{
+
+            /**
+             * name : 本站发布
+             * url : /article/list/0?cid=440
+             */
+
+            private String name;
+            private String url;
+
+            public String getName() {
+                return name;
+            }
+
+            public void setName(String name) {
+                this.name = name;
+            }
+
+            public String getUrl() {
+                return url;
+            }
+
+            public void setUrl(String url) {
+                this.url = url;
+            }
+        }
+
+        public void setTags(List<Tags> tags) {
             this.tags = tags;
         }
     }

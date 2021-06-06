@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">WanAndroid</string>
+
+    <!--HomeFragment-->
+    <string name="search">请输入搜索关键词</string>
+    <string name="answer">问\u3000答</string>
+    <string name="project">项\u3000目</string>
+    <string name="pub">公众号</string>
 </resources>

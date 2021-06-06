@@ -18,7 +18,7 @@ import androidx.viewbinding.ViewBinding;
 
 public abstract class BaseVBDialog<VB extends ViewBinding> extends DialogFragment {
 
-    private VB mBinding;
+    protected VB mBinding;
 
     @Nullable
     @Override

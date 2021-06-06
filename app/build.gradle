@@ -54,7 +54,7 @@ dependencies {
     implementation 'com.github.liujingxing.rxlife:rxlife-rxjava2:2.1.0'
     //gson转换器
     implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
-    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.google.code.gson:gson:2.8.6'
     //room数据库
     implementation "androidx.room:room-runtime:2.2.5"
     annotationProcessor "androidx.room:room-compiler:2.2.5"
@@ -66,5 +66,14 @@ dependencies {
     implementation 'com.tencent:mmkv-static:1.1.1'
     //bottom-navigation-bar
     implementation 'com.ashokvarma.android:bottom-navigation-bar:2.2.0'
-
+    //banner
+    implementation 'io.github.youth5201314:banner:2.2.1'
+    //BaseRecyclerViewAdapterHelper
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.6'
+    //刷新核心依赖
+    implementation  'com.scwang.smart:refresh-layout-kernel:2.0.3'
+    //经典刷新头
+    implementation  'com.scwang.smart:refresh-header-classics:2.0.3'
+    //经典加载
+    implementation  'com.scwang.smart:refresh-footer-classics:2.0.3'
 }

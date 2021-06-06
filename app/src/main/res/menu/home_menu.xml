@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="问答"
+        android:icon="@drawable/home_answer"
+        android:id="@+id/menu_answer" />
+
+    <item
+        android:title="项目"
+        android:icon="@drawable/home_project"
+        android:id="@+id/menu_project"/>
+
+    <item
+        android:title="公众号"
+        android:icon="@drawable/home_public"
+        android:id="@+id/menu_public"/>
+</menu>

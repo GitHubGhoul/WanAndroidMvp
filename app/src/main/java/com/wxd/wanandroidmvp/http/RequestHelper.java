@@ -29,6 +29,7 @@ import com.wxd.wanandroidmvp.entity.TreeArticle;
 import com.wxd.wanandroidmvp.entity.WxArticle;
 import com.wxd.wanandroidmvp.entity.WxArticleChapter;
 
+import java.util.List;
 import java.util.Map;
 
 import androidx.lifecycle.LifecycleOwner;
@@ -102,7 +103,7 @@ public class RequestHelper {
     /**
      * 首页轮播图
      */
-    public static void banner(LifecycleOwner owner, SingleObserver<BaseResponse<Banner>> singleObserver) {
+    public static void banner(LifecycleOwner owner, SingleObserver<BaseResponse<List<Banner>>> singleObserver) {
         RetrofitHelper.getApiHelp()
                 .banner()
                 .compose(RxThreadHelper.singleIO2Main())
@@ -135,7 +136,7 @@ public class RequestHelper {
     /**
      * 热词
      */
-    public static void hotKey(LifecycleOwner owner, SingleObserver<BaseResponse<Hotkey>> singleObserver) {
+    public static void hotKey(LifecycleOwner owner, SingleObserver<BaseResponse<List<Hotkey>>> singleObserver) {
         RetrofitHelper.getApiHelp()
                 .hotKey()
                 .compose(RxThreadHelper.singleIO2Main())
