@@ -158,7 +158,7 @@ public class RequestHelper {
     /**
      * 体系
      */
-    public static void tree(LifecycleOwner owner, SingleObserver<BaseResponse<Tree>> singleObserver) {
+    public static void tree(LifecycleOwner owner, SingleObserver<BaseResponse<List<Tree>>> singleObserver) {
         RetrofitHelper.getApiHelp()
                 .tree()
                 .compose(RxThreadHelper.singleIO2Main())
@@ -180,7 +180,7 @@ public class RequestHelper {
     /**
      * 导航
      */
-    public static void navigation(LifecycleOwner owner, SingleObserver<BaseResponse<Navigation>> singleObserver) {
+    public static void navigation(LifecycleOwner owner, SingleObserver<BaseResponse<List<Navigation>>> singleObserver) {
         RetrofitHelper.getApiHelp()
                 .navigation()
                 .compose(RxThreadHelper.singleIO2Main())
@@ -257,7 +257,7 @@ public class RequestHelper {
     /**
      * 广场列表
      */
-    public static void square(LifecycleOwner owner, int page, SingleObserver<BaseResponse<Square>> singleObserver) {
+    public static void square(LifecycleOwner owner, int page, SingleObserver<BaseResponse<HomeArticle>> singleObserver) {
         RetrofitHelper.getApiHelp()
                 .square(page)
                 .compose(RxThreadHelper.singleIO2Main())

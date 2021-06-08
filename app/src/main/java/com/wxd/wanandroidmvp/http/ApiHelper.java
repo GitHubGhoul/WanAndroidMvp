@@ -88,7 +88,7 @@ public interface ApiHelper {
 
     //体系
     @GET("tree/json")
-    Single<BaseResponse<Tree>> tree();
+    Single<BaseResponse<List<Tree>>> tree();
 
     //体系下文章
     @GET("article/list/{page}/json")
@@ -96,7 +96,7 @@ public interface ApiHelper {
 
     //导航
     @GET("navi/json")
-    Single<BaseResponse<Navigation>> navigation();
+    Single<BaseResponse<List<Navigation>>> navigation();
 
     //项目分类
     @GET("project/tree/json")
@@ -124,7 +124,7 @@ public interface ApiHelper {
 
     //广场列表
     @GET("user_article/list/{page}/json")
-    Single<BaseResponse<Square>> square(@Path("page")int page);
+    Single<BaseResponse<HomeArticle>> square(@Path("page")int page);
 
     //分享人对应列表
     @GET("user/{id}/share_articles/{page}/json")
