@@ -1,4 +1,7 @@
 <resources>
+    <!--content-->
+    <dimen name="textTitle">16sp</dimen>
+    <dimen name="textContent">14sp</dimen>
     <!--HomeFragment-->
     <dimen name="popup_item">16sp</dimen>
     <!--DiscoverFragment-->
